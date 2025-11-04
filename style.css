@@ -1,0 +1,266 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    border: border-box;
+}
+#page1div{
+    height: 800px;
+    width: 100%;
+    background-color: #0F0617;
+    padding-top: 5px;
+}
+#hometvshowdiv{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.div1text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-left: 13px;
+}
+#rightanglepink{
+    color: #FF0091
+}
+#Episodesheading{
+    font-size: 24px;
+    color: #ffffff;
+    padding-top: 16px;
+    margin-left: 13px;
+}
+.line{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.15);
+    padding-top: 1px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: none;
+}
+#seasondiv{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-left: 13px;
+}
+#selectseason{
+    height: 35px;
+    width: 100px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    border: 1px solid #596982;
+    background-color: #364152;
+    border-radius: 5px;
+}
+.TabularGrid{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+}
+.circle{
+    height: 16px;
+    width: 16px;
+    accent-color: #6F00FF;
+}
+#sortingdiv{
+    height: 65px;
+    width: 100%;
+    background-color: #150920;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: -10px;
+}
+.Sorttext{
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 14px;
+}
+#Orders{
+    height: 35px;
+    width: 180px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 550;
+    border: 1px solid #596982;
+    background-color: #364152;
+    border-radius: 5px;
+    padding-left: 4px;
+}
+#searchouterdiv{
+    height: 35px;
+    width: 100px;
+    display: flex;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+    border: 1px solid #596982;
+    background-color: #364152;
+    border-radius: 5px;
+}
+#searchicon{
+    height: 35px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#searchnumber{
+    height: 33px;
+    width: 56px;
+    border: none;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 5px;
+}
+#nearepisodesdivs{
+    height: 35px;
+    width: 100%;
+    display: flex;
+}
+.Episodesranges{
+    height: 35px;
+    width: 130px;
+    display: flex;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    border: 1px solid #596982;
+    background-color: #364152;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    border: 1px solid #596982;
+}
+#Episodeshighlited{
+    height: 35px;
+    width: 130px;
+    display: flex;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 500;
+    border: 1px solid #4D07A8;
+    background-color: #8A38F5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+    border: 1px solid transparent;
+}
+.Episodesranges:hover{
+    background-color: rgba(168, 6, 255, 0.01);
+    transition-duration: 0.40s;
+    transition-timing-function: linear;
+    border: 1px solid #9d00ff;
+    color: #9d00ff;
+}
+.boxs{
+    text-decoration: none;
+}
+#moreicon{
+    height: 30px;
+    width: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movielistdiv{
+    height: 160px;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid  rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+.movielistdiv:hover{
+    background-color: #1E0038;
+    border-color: #5A5A5A;
+}
+#imagediv{
+    height: 130px;
+    width: 250px;
+    background-image: url("1\ episode.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-left: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#playicon{
+   font-size: 24px;
+}
+.episodetitlediv{
+    height: 160px;
+    width: 100%;
+}
+.downloaddiv{
+    height: 160px;
+    width: 300px;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.episodename{
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+.episodediscription{
+    font-size: 12px;
+    color: #dbdbdb;
+    margin-left: 30px;
+    margin-top: 18px;
+    line-height: 20px;
+}
+.episodesdetails{
+    color: #C4C4C4;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 18px;
+}
+#imagediv2{
+    height: 130px;
+    width: 250px;
+   background-image: url("Frame\ 505.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-left: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#imagediv3{
+    height: 130px;
+    width: 250px;
+    background-image: url("Frame\ 506.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-left: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
